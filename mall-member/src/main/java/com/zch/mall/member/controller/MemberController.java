@@ -42,6 +42,7 @@ public class MemberController {
         return R.ok().put("member",memberEntity).put("coupon",couponMember.get("coupon"));
     }
 
+//    /renren-fast/member/memberlevel/list
     /**
      * 列表
      */
